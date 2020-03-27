@@ -551,10 +551,10 @@ button.close {
     right: 15px;
     font-size: 3rem;
 }
-/* 
-.col-md-6 p {
-    padding-bottom: 10px;
-} */
+
+.col-md-6 p:nth-of-type(2) {
+    font-size: 12px;
+}
 
 .col-md-6 h2 {
     font-family: 'Inter';
@@ -563,16 +563,16 @@ button.close {
     /* padding-bottom: 15px;    */
 }
 
-.col-md-6 h5 {
+/* .col-md-6 h4 {
     font-size: 10px;
-    /* padding-bottom: 15px; */
-}
+    padding-bottom: 15px;
+} */
 
 .mod-group input {
     text-align: center;
     border-radius: 0;
-    font-size: 10px;
-    padding: 20px;
+    font-size: 15px;
+    padding: 10px 50px;
 }
 
 .mod-button-adjust {
@@ -595,7 +595,7 @@ button.close {
     margin-left: 50px;
 }
 .travel-img img{
-    width: 350px;
+    width: 380px;
     height: 250px;
     
 }
@@ -625,4 +625,30 @@ button.close {
 
 .travel-img a:hover{
     color: aqua;
+}
+
+.footer{
+    padding: 50px;
+
+}
+
+.foot-con{
+    margin: 0px 30px;
+    display: inline-block;
+    height: 300px;
+}
+
+.widget, .first-col{
+    display: inline-block;
+}
+
+.first-col{
+    margin-left: 100px;
+    align-items: baseline;
+   
+  
+}
+
+.first-col li, .first-col h6{
+    padding: 5px;
 }
