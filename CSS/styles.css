@@ -501,6 +501,7 @@ img .img-full{
     color: black;
     /* font-family: 'Fira'; */
     left: -200px;
+    z-index: 999999999999;
 }
 
 .modal-content {
@@ -509,7 +510,7 @@ img .img-full{
 }
 
 .col-md-6 img {
-    max-width: 105%;
+    max-width: 115%;
 }
 
 button.close {
