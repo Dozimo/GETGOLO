@@ -652,3 +652,10 @@ button.close {
 .first-col li, .first-col h6{
     padding: 5px;
 }
+
+.cit-1-img img:hover, .cit-2-img img:hover, .cit-3-img img:hover, .cit-4-img img:hover, .cit-5-img img:hover,.cit-6-img img:hover, .cit-7-img img:hover, .cit-8-img img:hover{
+    cursor: pointer;
+   
+    transform: scale3d(1.05, 1.05, 1.05) translateZ(0);
+    transition: all 1s cubic-bezier(0, 0, 0.2, 1);
+}
