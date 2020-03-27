@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Inter|Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -77,6 +78,44 @@
             </nav>
         </div>
         <div class="content">
+            <!-- Modal starts here -->
+            <div class="modal fade" id="getgolo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="row no-gutters">
+                            <div class="col-md-6" style="padding: 0;">
+                                <img src="images/old-1130743_1280.jpg" alt="#">
+                            </div>
+                            <div class="col-md-6" style="padding: 30px 30px 0px 70px; text-align: center;">
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                              <p>Welcome To</p>
+                              <h2>GET GOLO</h2>
+                              <h5>THE INDUSTRY'S TRAVEL GUIDE</h5>
+                              <p>Subscribe to the latest industry news, Travel locations and a place to rest</p>
+                              <form>
+                                <div class="mod-group">
+                                  <label for="getgoloemail"></label>
+                                  <input type="email" class="mod-control" id="getgoloemail" aria-describedby="emailHelp" placeholder="Enter Email Address">
+                                </div>
+                                <button type="submit" class="btn btn-dark form-button-adjust">SUBSCRIBE</button>
+                              </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal ends here -->
+        
+
+        <!-- Javascript link starts here -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="javascript/modal.js"></script>
+        <!-- Javascript link ends here -->
+              
             <div class="purchase">
                 <button class="fixed-btn">
                     PURCHASE <strong> GOLO</strong>
@@ -87,13 +126,15 @@
                 <h1>Explore the World</h1>
                 <div class="searchbox form-group">
                     <input type="text" class="explore-control" placeholder="Type a City or Location">
+                    <i>Popular:
+                        <a>Amsterdam</a>
+                        <a>Toronto</a>
+                        <a>Paris</a>
+
+                    </i>    
                 </div>
                 </div>
-                <div class="purchase">
-                    <button class="fixed-btn">
-                        PURCHASE <strong> GOLO</strong>
-                    </button>
-                </div>
+                
             </div>
            
             <div class="cities">
@@ -167,6 +208,20 @@
                 </div>
                 </div>
             </div>
+            <div class="the-app">
+                <div class="the-app-txt">
+                <h1>Get the App</h1>
+                <p>Download the app and go to travel the world.</p>
+                </div>
+                <div class="the-app-img">
+                    <a href="#"><img src="images/app-store-big.png" alt="#" class="img-full"></a>
+                    <img src="images/google-play-big.png" alt="#">
+                </div>
+            </div>
+            <div class="travel">
+                <h1>Travel Inspiration</h1>
+            </div>
+        
         </div>
     
 </body>

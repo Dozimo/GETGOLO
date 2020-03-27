@@ -3,7 +3,7 @@
 
 *{
     box-sizing: border-box;
-    zoom: 97.5%
+    /* zoom: 97.5% */
 }
 
 body{
@@ -30,8 +30,8 @@ nav{
 }
 
 .logo h1{
-    font-weight: bolder;
-    font-size: 70px;
+    font-weight: 1000;
+    font-size: 40px;
 }
 
 a{
@@ -54,7 +54,7 @@ a:hover{
 .btn-info{
     background: aqua;
     border-color: aqua;
-    padding: 25px 50px;
+    padding: 10px 30px;
     border-radius: 60px;
 }
 
@@ -89,11 +89,11 @@ a:hover{
 .search-control{
     display: block;
     border: none;
-    border-bottom: 1px solid gray;;
+    border-bottom: 1px solid gray;
     border-radius: 0;
     font-size: large;
-    padding: 20px;
-    margin: 20px 20px 10px 40px;
+    padding: 20px 20px 20px 5px;
+    /* margin: 20px 20px 10px 40px; */
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
     font-weight: 400;
@@ -120,9 +120,13 @@ a:hover{
 }
 
 .menu-btn-1, .menu-btn-2, .menu-btn-3, .menu-btn-4{
-    padding: 30px;
-    font-size: larger;
+    padding: 15px;
+    /* font-size: larger; */
     position: relative;
+}
+
+.menu-buttons{
+    padding: 0px 0px 0px 40px;
 }
 
 .checkbox-trigger-2 {
@@ -182,9 +186,7 @@ a:hover{
     align-content: baseline;
 }
 
-.menu-btn-5 span::after{
-    content: url(../Images/);
-}
+
 .checkbox{
     display: none;
 }
@@ -363,7 +365,7 @@ button:focus, .form-group, .form-control  {
 .menu-btn-1::after{
     content: url(../Images/icons8-expand-arrow-24.png);
     vertical-align: middle;
-    margin-top: 10px;
+    margin-top: 5px;
     display: inline-block;
     padding-left: 5px;
 }
@@ -429,4 +431,124 @@ ul{
     content: url(../Images/icons8-delete-50.png);
 }
 
+.searchbar::before{
+    content: url(../Images/icons8-search-32.png);
+    /* display: inline-block; */
+    z-index: 9999999;
+    vertical-align: bottom;
+    border-bottom: 1px solid gray;
+}
 
+.searchbar{
+    display: flex;
+}
+
+.the-app{
+    background-image: url(../Images/bg_banner_app.jpg);
+    height: 500px;
+}
+
+.searchbox  i{
+    padding: 20px;
+    padding-right: 0px;
+    font-size: large;
+    
+}
+
+i a {
+    margin: 5px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    color: black;
+    
+}
+
+.the-app{
+    position: relative;
+    display: flex;
+}
+
+.the-app-txt{
+    position: absolute;
+    top: 150px;
+    font-size: 150%;
+    
+    left: 100px;
+}
+.the-app-txt h1{
+    font-size: 200%;
+    font-weight: bolder;
+}
+
+.the-app-img{
+    position: absolute;
+    top: 300px;
+    left: 100px ;
+    width: 100%;
+    height: 100%;
+}
+.the-app-img img{
+    height: auto;
+    max-width: 100%;
+    font-weight: 500;
+}
+
+img .img-full{
+    width: auto;
+}
+
+.modal {
+    color: black;
+    /* font-family: 'Fira'; */
+    left: -200px;
+}
+
+.modal-content {
+    width: 889.3px;
+    border-radius: 0;
+}
+
+.col-md-6 img {
+    max-width: 105%;
+}
+
+button.close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 3rem;
+}
+
+.col-md-6 p {
+    /* padding-bottom: 10px; */
+}
+
+.col-md-6 h2 {
+    font-family: 'Inter';
+    font-size: 30px;
+    font-weight: bold;
+    /* padding-bottom: 15px;    */
+}
+
+.col-md-6 h5 {
+    font-size: 10px;
+    /* padding-bottom: 15px; */
+}
+
+.mod-group input {
+    text-align: center;
+    border-radius: 0;
+    font-size: 10px;
+    padding: 20px;
+}
+
+.mod-button-adjust {
+    text-align: center;
+    border-radius: 0;
+    font-size: 10px;
+    padding: 5px 20px;
+}
+
+.mod-group{
+    margin: 20px 5px;
+}
